@@ -1,0 +1,11 @@
+weather_data=[]
+ 
+while True:
+      temp=input("Enter temperature(or 'step'to end);")
+if temp.lower ()=="stop":
+    
+    humidity=input("enter humidity:")
+    weather_data . append ((temp,Humidity))
+print("weather data:")
+for i,data in enumerate (weather - data,start=1):
+  Print ("Day",i,":temperature=",data[0],",humidity=",data[1])      
